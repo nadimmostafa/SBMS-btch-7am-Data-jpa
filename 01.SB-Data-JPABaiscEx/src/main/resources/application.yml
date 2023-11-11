@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    password: Oracle19
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: System
+  jpa:
+    database-platform: org.hibernate.dialect.Oracle12gDialect
+    hibernate:
+      ddl-auto: create
+    show-sql: true
